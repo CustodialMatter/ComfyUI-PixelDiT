@@ -1,0 +1,7 @@
+omegaconf
+timm
+termcolor
+pyrallis
+# NOTE: diffusers, transformers, accelerate, torch, torchvision are
+# intentionally omitted. ComfyUI ships all of these, and listing them here
+# can cause pip to re-resolve and clobber the CUDA torch build.
